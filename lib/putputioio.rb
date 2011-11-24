@@ -1,2 +1,6 @@
 require 'net/http'
 require 'uri'
+require 'json'
+require 'yaml'
+require (File.expand_path(__FILE__)+'/version').sub '.rb',''
+require (File.expand_path(__FILE__)+'/api').sub '.rb', ''
